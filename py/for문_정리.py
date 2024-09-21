@@ -18,7 +18,6 @@ range(a,b) -> a ~ b-1
 range(a,b,c) -> a ~ b-1, c 씩증가
 * a,b,c 는 모두 정수(int) 값만 사용가능
 '''
-
 '''
 #range(11)
 - 0부터 10(11-1)까지 1씩 증가 
@@ -35,4 +34,6 @@ range(a,b,c) -> a ~ b-1, c 씩증가
 range(5)
 
 list(range(5))
+
+print(list(range(5)))
 # for문 활용
